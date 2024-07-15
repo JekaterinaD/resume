@@ -273,4 +273,34 @@ a:hover, button:hover {
     .skills-grid div {
         margin-bottom: 10px; 
     }
+    .motivatie {
+        padding: 10px; 
+        font-size: 0.9em; 
+        text-align: left; 
+    }
+
+    .motivatie h4 {
+        font-size: 1em; 
+    }
+
+    .motivatie p span {
+        display: block; 
+        margin-bottom: 10px; 
+    }
+}
+/* Smaller Mobile Devices */
+@media (max-width: 480px) {
+    .profileText .imgBx {
+        width: 120px; 
+        height: 120px; 
+    }
+
+    .profileText h2 {
+        font-size: 1em; 
+    }
+
+    .motivatie {
+        padding: 5px; 
+        font-size: 0.8em; 
+    }
 }

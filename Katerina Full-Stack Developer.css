@@ -9,14 +9,12 @@
 
 body {
     color: black;
-    background: linear-gradient(to right, #2c3e50, #bdc3c7);
-    background-size: cover;
+    background: white; /* Remove gradient and set background to white */
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
     padding: 20px;
-    box-shadow: 0 0 20px 10px rgba(255, 255, 255, 0.6);
 }
 
 .container {

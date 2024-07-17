@@ -188,6 +188,13 @@ body {
     padding-top: 0%;
 }
 
+table {
+    margin: 0 -0.5em
+}
+td { 
+    padding: 0 0.5em 
+}
+
 .skills-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
